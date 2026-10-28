@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal website and portfolio for Athena Sykuzuhara."
+    />
+    <title>Athena Sykuzuhara | Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">Athena Sykuzuhara</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <h1>
+          Hi, I am Athena Sy Kuzuhara.
+        </h1>
+        <p class="hero-copy">
+          Computer Science student and software engineer focused on machine
+          learning systems, full-stack development, and practical tools.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="#contact">Contact</a>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>
+          I am based in Castro Valley, California and currently studying Computer
+          Science at the University of Southern California. I enjoy building
+          reliable software systems and applying machine learning to real-world
+          problems.
+        </p>
+      </section>
+
+      <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="entry">
+          <h3>University of Southern California</h3>
+          <p>Bachelor of Science in Computer Science, August 2023 - December 2026</p>
+          <p>
+            Relevant coursework: Data Structures, Algorithms, Operating Systems,
+            Artificial Intelligence, Software Engineering, Machine Learning.
+          </p>
+        </div>
+        <div class="entry">
+          <h3>University of Southern California</h3>
+          <p>Master of Science in Computer Science, August 2025 - December 2026</p>
+          <p>
+            Relevant coursework: Database Systems, Parallel and Distributed
+            Programming, 3D Graphics and Rendering, Deep Learning, Scientific
+            Computing and Visualization.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="entry">
+          <h3>Cerebras Systems, Software Engineering Intern</h3>
+          <p>Sunnyvale, CA | May 2025 - August 2025</p>
+          <ul>
+            <li>
+              Set up Grafana dashboards to monitor disk utilization and CPU usage
+              across company servers.
+            </li>
+            <li>
+              Built an opcode calculator tool to help verify simulator accuracy and
+              validate instruction execution logic.
+            </li>
+          </ul>
+        </div>
+        <div class="entry">
+          <h3>Cerebras Systems, Software Engineering Intern</h3>
+          <p>Sunnyvale, CA | May 2024 - August 2024</p>
+          <ul>
+            <li>
+              Automated legacy code generation with Python, reducing code volume
+              and improving maintainability.
+            </li>
+            <li>
+              Collaborated with senior engineers to resolve critical bugs and
+              improve testing workflows.
+            </li>
+          </ul>
+        </div>
+        <div class="entry">
+          <h3>
+            Laboratory of Dr. Stephen J. Read, Research Assistant
+          </h3>
+          <p>Los Angeles, CA | October 2023 - December 2024</p>
+          <ul>
+            <li>
+              Modeled depression and decision-making behavior using Emergent neural
+              network software.
+            </li>
+            <li>
+              Analyzed computational cognitive neuroscience literature and tested
+              neural network models.
+            </li>
+            <li>
+              Assisted in optimizing Go software and applied generative AI to
+              develop research techniques.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Team Hearing</h3>
+            <p>
+              Built a full-stack accessibility platform using React and Spring Boot
+              to improve music perception for users with hearing impairments.
+            </p>
+            <a href="https://github.com/bionic-ear-lab/team-hearing" target="_blank" rel="noreferrer" aria-label="View Team Hearing project">View project</a>
+          </article>
+          <article class="card">
+            <h3>Parallelizing a Text to Speech Pipeline</h3>
+            <p>
+              Designed a parallelized neural text-to-speech pipeline in PyTorch to
+              reduce latency using staged and chunk-based parallel synthesis.
+            </p>
+            <a href="https://github.com/aarushigarg/parallel-tts" target="_blank" rel="noreferrer" aria-label="View text to speech pipeline project">View project</a>
+          </article>
+          <article class="card">
+            <h3>Predicting COVID-19 Loss and Recovery</h3>
+            <p>
+              Built regression and classification models to measure district-level
+              learning loss and predict school recovery outcomes.
+            </p>
+            <a href="https://github.com/delara-aryan/covid-learning" target="_blank" rel="noreferrer" aria-label="View COVID-19 learning recovery project">View project</a>
+          </article>
+          <article class="card">
+            <h3>TaxSim</h3>
+            <p>
+              Built a website that calculates estimated taxes for selling RSUs and
+              related equity compensation scenarios.
+            </p>
+            <a href="https://github.com/sykuzuha/taxsim" target="_blank" rel="noreferrer" aria-label="View TaxSim project">View project</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul class="chip-list">
+          <li>C / C++</li>
+          <li>JavaScript / TypeScript</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>Go</li>
+          <li>React / Next.js</li>
+          <li>Linux</li>
+          <li>Data Structures</li>
+          <li>Machine Learning</li>
+          <li>Grafana</li>
+          <li>Bash</li>
+          <li>Git</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:asykuzuhara@gmail.com">asykuzuhara@gmail.com</a></p>
+        <p>Phone: <a href="tel:+15106346673">(510) 634-6673</a></p>
+        <p>Location: Castro Valley, CA</p>
+        <p><a href="./Resume-2026-2.pdf" target="_blank" rel="noreferrer">Open Resume (PDF)</a></p>
+        <div class="socials">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://x.com/" target="_blank" rel="noreferrer">X</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Athena Sykuzuhara. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
