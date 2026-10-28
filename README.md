@@ -1,31 +1,27 @@
-# Athena Sykuzuhara Personal Website
+# Athena Sy Kuzuhara Personal Website
 
-A modern, responsive personal website designed to deploy directly to GitHub Pages.
+## Visit Site
 
-## Files
+- Live site: https://sykuzuha.github.io/athenasykuzuhara-site/
+- Repository: https://github.com/sykuzuha/athenasykuzuhara-site
 
-- `index.html` - Main page structure
-- `styles.css` - Visual design and responsive layout
-- `script.js` - Menu toggle, reveal animations, dynamic footer year
-- `.github/workflows/deploy.yml` - Automatic GitHub Pages deployment
+## View Locally
 
-## Quick Customization
+1. Open `index.html` in your browser, or
+2. Run a local server from this folder:
 
-1. Update name, headline, and text content in `index.html`.
-2. Replace social links and email in the Contact section.
-3. Swap project cards with your real projects.
+```bash
+python3 -m http.server 8080
+```
 
-## Deploy on GitHub Pages
+Then open: http://localhost:8080/
 
-1. Create a GitHub repository and push this folder to the `main` branch.
-2. In GitHub, open **Settings -> Pages**.
-3. Set **Source** to **GitHub Actions**.
-4. Push any change to `main`; the workflow deploys automatically.
+## Edit Content
 
-Your site URL will look like:
+- Update text and sections in `index.html`
+- Adjust styling in `styles.css`
+- Update behavior in `script.js`
 
-`https://<your-username>.github.io/<repository-name>/`
+## Deploy
 
-If you want a root-domain Pages site (`https://<your-username>.github.io/`), name the repository:
-
-`<your-username>.github.io`
+Push to `main`; GitHub Actions deploys the site automatically.
